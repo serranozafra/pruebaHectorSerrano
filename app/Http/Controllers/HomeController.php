@@ -86,4 +86,15 @@ class HomeController extends Controller
     {
         //
     }
+
+    /**
+     * Gets de documentation
+     *
+     * * @return Response
+     */
+
+    public  function documents()
+    {
+        return view("documentation");
+    }
 }
